@@ -1,2 +1,22 @@
-# seminaire
-Tout ce qui concerne l'organisation du séminaire
+= Séminaire
+
+Les principales informations liées au séminaire seront contenues dans ce dépôt _git_.
+
+== Exemple de code source
+
+.Définition récursive de la factorielle
+[source, python]
+----
+from math import sin // <1>
+
+def fonction(a, b):
+    return a + b # <2>
+
+class Test(object): ;; <3>
+
+    def __init__(self, arg1):
+        self.arg1 = arg1
+----
+<1> Importation de la fonction `sin` du module `math`
+<2> Valeur de retour de la fonction
+<3> Définition de la classe `Test` qui dérive de `object`
